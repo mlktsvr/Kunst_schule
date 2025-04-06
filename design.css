@@ -155,7 +155,6 @@ img{
 .dropdown-content {
     display: none;
     position: absolute;
-    width: 30vw;
     height: inherit;
     background-color: #d7e0ea;
     box-shadow: 0px 8px 16px 0px rgba(71, 71, 75, 0.2);
