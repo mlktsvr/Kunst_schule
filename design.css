@@ -1,45 +1,66 @@
 body{
     background-color: rgb(216, 242, 250);
+    margin: 0;
 }
 
 h1{
     font-size: 18vw;
+    margin-top: 0px;
     text-align: center;
+    position: top;
 }
 
 nav{
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-    background-color: black;
+    background-color: rgb(136, 127, 243);
     z-index: 2;
-    display: flex;
-    justify-content: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }
 ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
+    display: flex;
+    justify-content: space-evenly;
 }
 li{
     float: left;
+    font-size: 2vw;
 }
 
 li a{
     display: block;
-    color: white;
+    color: beige;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
+#scrollknopf1, #scrollknopf2{
+    display: none;
+    background-color: rgb(136, 127, 243);
+    color: beige;
+    text-align: center;
+    padding: 14px 16px;
+    border: none;    
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 1vw;
+    font-size: 4vw;
+}
+
 div{
     border: 6px solid rgb(138, 145, 148);
     box-shadow: 10px 10px rgb(194, 212, 213);
     background-color: rgba(122, 122, 122, 0.2); 
-    width: 100%;
+    width: 95%;
     height: 47vw;
-    margin-top: 20vw;
+    margin-left: 2vw;
 }
 
 
@@ -49,11 +70,18 @@ div{
 #punkt5{
     height: 95vw;
 }
+#fb{
+    margin-bottom: 50px;
+}
 p{
     position: absolute;
 }
 aside{
-    display: none;
+    margin-top: 20vw;
+    margin-bottom: 0;
+    font-size: 4vw;
+    opacity: 0.0;
+    
 }
 
 h5{
@@ -90,8 +118,17 @@ img{
 
 
 @media only screen and (max-width:625px){
+    li{
+        font-size: 3vw;
+    }
+    #l4, #l5, #l6{
+        display: none;
+    }
+    #scrollknopf2{
+        display: block;
+    }
     div{
-        width: 98%;
+        width: 94%;
     }
     section{
         height: 67%;
@@ -119,11 +156,11 @@ img{
     display: none;
     position: absolute;
     width: inherit;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    background-color: #d7e0ea;
+    box-shadow: 0px 8px 16px 0px rgba(71, 71, 75, 0.2);
     padding: 12px 16px;
     z-index: 1;
+    font-size: 2vw;
   }
 
 

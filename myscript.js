@@ -111,3 +111,29 @@ function clear_rest(dropdown){
         }
     }
 }
+
+function scroll1(){
+    document.getElementById("scrollknopf2").style.display = "block";
+    document.getElementById("scrollknopf1").style.display = "none";
+
+    document.getElementById("l0").style.display = "block";
+    document.getElementById("l1").style.display = "block";
+    document.getElementById("l2").style.display = "block";
+    document.getElementById("l3").style.display = "block";
+    document.getElementById("l4").style.display = "none";
+    document.getElementById("l5").style.display = "none";
+    document.getElementById("l6").style.display = "none";
+}
+
+function scroll2(){
+    document.getElementById("scrollknopf1").style.display = "block";
+    document.getElementById("scrollknopf2").style.display = "none";
+
+    document.getElementById("l0").style.display = "none";
+    document.getElementById("l1").style.display = "none";
+    document.getElementById("l2").style.display = "none";
+    document.getElementById("l3").style.display = "none";
+    document.getElementById("l4").style.display = "block";
+    document.getElementById("l5").style.display = "block";
+    document.getElementById("l6").style.display = "block";
+}
